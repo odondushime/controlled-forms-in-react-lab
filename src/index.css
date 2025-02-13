@@ -88,10 +88,8 @@ input {
 
 .bookCardsDiv {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  width: 90%;
-  margin-top: 20px;
+  justify-content: center;
 }
 
 .bookCard {
@@ -105,17 +103,19 @@ input {
   margin: 15px 10px;
   background-color: rgb(155, 155, 155);
   color: black;
+  height: 200px; /* Set a fixed height */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: white;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: grey;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: burlywood;
   }
 }

@@ -30,7 +30,7 @@ function Bookshelf() {
   return (
     <div className="bookshelfDiv">
       <div className="formDiv">
-        <h3>Add a Book</h3>
+        <h3>Add Book</h3>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
